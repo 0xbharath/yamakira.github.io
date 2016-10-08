@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Disruptive Labs</title>
+    <description>My technical ramblings on security, networking, protocols and everything under sun!</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+      <pubDate>Sat, 08 Oct 2016 19:39:45 +0530</pubDate>
+    <lastBuildDate>Sat, 08 Oct 2016 19:39:45 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Theme Features</title>
+        <description>&lt;p&gt;The features described in this section are specific for this template. All other language features can be found in the &lt;a href=&quot;http://kramdown.gettalong.org/syntax.html&quot;&gt;kramdown documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;image-features&quot;&gt;Image Features&lt;/h3&gt;
+
+&lt;h4 id=&quot;parallax-effect&quot;&gt;Parallax Effect&lt;/h4&gt;
+
+&lt;p&gt;Keep in mind that paralax effect will not be captured if you like to print the page.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;bg-scroll&quot; style=&quot;background-image: url(&#39;/media/img/mountain1.jpg&#39;)&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;bg-scroll&quot; style=&quot;background-image: url(&#39;/media/img/mountain1.jpg&#39;)&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;caption-for-image&quot;&gt;Caption for Image&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;figure&amp;gt;
+   &amp;lt;img src=&quot;/media/img/mountain2.jpg&quot; /&amp;gt;
+   &amp;lt;figcaption&amp;gt;A nice mountain.&amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/media/img/mountain2.jpg&quot; /&gt;
+&lt;figcaption&gt;A nice mountain&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;image-allignment&quot;&gt;Image Allignment&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;![](/media/img/mountain3.gif#right)
+![](/media/img/mountain2.gif#left)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Allignment with caption&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;aside&amp;gt;
+   &amp;lt;figure class=&quot;left&quot;&amp;gt;
+      &amp;lt;img src=&quot;/media/img/mountain3.jpg#left&quot; /&amp;gt;
+      &amp;lt;figcaption&amp;gt;What a view!&amp;lt;/figcaption&amp;gt;
+   &amp;lt;/figure&amp;gt;
+&amp;lt;/aside&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/img/mountain2.jpg#right&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan ante nulla, quis pulvinar nibh tempus sed. In congue congue odio, vel ornare mauris ultrices vel. Vestibulum tristique eros at enim vulputate fringilla. Nullam non augue sit amet elit interdum tempus non ut justo.&lt;/p&gt;
+
+&lt;aside&gt;
+&lt;figure class=&quot;left&quot;&gt;
+&lt;img src=&quot;/media/img/mountain3.jpg&quot; /&gt;
+&lt;figcaption&gt;What a view!&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Phasellus ut ipsum id leo sagittis pretium a quis neque. Maecenas rutrum lectus id magna malesuada, non dapibus neque tincidunt. Suspendisse ultrices accumsan eros, sit amet facilisis quam hendrerit a. Integer sed felis et diam efficitur accumsan. Suspendisse facilisis lectus non orci mattis vestibulum. Suspendisse molestie vulputate nunc non tincidunt. Maecenas vulputate, mauris ut rhoncus vulputate, tellus augue aliquet nibh, vel egestas nulla ipsum bibendum lorem. Pellentesque posuere laoreet lectus eget luctus. Vestibulum mattis ut ligula sed sodales. Vestibulum sit amet viverra arcu.&lt;/p&gt;
+
+&lt;h4 id=&quot;fullscreen-image&quot;&gt;Fullscreen image&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;large&quot;&amp;gt;
+   ![](/media/img/mountain2.jpg)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With caption&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;figure class=&quot;large&quot; markdown=&quot;1&quot;&amp;gt;   
+   ![](/media/img/mountain2.jpg)
+   &amp;lt;figcaption&amp;gt;On top of the mountain!&amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure class=&quot;large&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/media/img/mountain2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;On top of the mountain!&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;image-gallery&quot;&gt;Image Gallery&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;album&quot;&amp;gt;
+   ![](/media/img/Screenshot_2016-04-09-19-16-28.png)
+   ![](/media/img/Screenshot_2016-04-02-00-48-25.png)
+   ![](/media/img/Screenshot_2016-04-01-12-03-36.png)
+   ![](/media/img/Screenshot_2016-04-01-12-01-33.png)
+   ![](/media/img/Screenshot_2016-03-24-12-13-58.png)
+   ![](/media/img/Screenshot_2016-03-17-22-50-05.png)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With caption&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;album&quot;&amp;gt;
+   // ...
+   &amp;lt;figure&amp;gt;
+      &amp;lt;img src=&quot;/media/img/mountain2.jpg&quot; /&amp;gt;
+      &amp;lt;figcaption&amp;gt;On top of the mountain!&amp;lt;/figcaption&amp;gt;
+   &amp;lt;/figure&amp;gt;
+   &amp;lt;figure&amp;gt;
+      &amp;lt;img src=&quot;/media/img/mountain3.jpg&quot; /&amp;gt;
+      &amp;lt;figcaption&amp;gt;What a view&amp;lt;/figcaption&amp;gt;
+   &amp;lt;/figure&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;album&quot;&gt;
+   &lt;figure&gt;
+      &lt;img src=&quot;/media/img/mountain1.jpg&quot; /&gt;
+      &lt;figcaption&gt;Mountain and lake&lt;/figcaption&gt;
+   &lt;/figure&gt;   
+   &lt;figure&gt;
+      &lt;img src=&quot;/media/img/mountain2.jpg&quot; /&gt;
+      &lt;figcaption&gt;On top of the mountain!&lt;/figcaption&gt;
+   &lt;/figure&gt;   
+   &lt;figure&gt;
+      &lt;img src=&quot;/media/img/mountain3.jpg&quot; /&gt;
+      &lt;figcaption&gt;What a view&lt;/figcaption&gt;
+   &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;sourcecode-features&quot;&gt;Sourcecode Features&lt;/h3&gt;
+
+&lt;p&gt;With language highlighting&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;    ```html
+    &amp;lt;script&amp;gt;
+        var decentThemeConfig = {
+            ga: &#39;YOUR TRACK ID&#39;
+        };
+    &amp;lt;/script&amp;gt;
+    ```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With language highlighting, line numbers and line highlighting&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;&amp;lt;pre data-line=&quot;5&quot; class=&quot;line-numbers language-javascript&quot;&amp;gt;&amp;lt;code&amp;gt;
+   Array.prototype.uniq = function () {
+       var map = {};
+       return this.filter(function (item) {
+           if (map[item]) {
+               return false;
+           } else {
+               map[item] = true;
+               return true;
+           }
+       });
+   };
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;author-in-quote&quot;&gt;Author in quote&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; Our destiny offers not the cup of despair, but the chalice of opportunity. So let us seize it, not in fear, but in gladness.
+&amp;gt; 
+&amp;gt; &amp;lt;cite&amp;gt;——R.M. Nixon&amp;lt;/cite&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our destiny offers not the cup of despair, but the chalice of opportunity. So let us seize it, not in fear, but in gladness.&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;——R.M. Nixon&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;attention-box&quot;&gt;Attention Box&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;tip&quot;&amp;gt;
+Chemicals including paint and thinners must be stored in labelled containers that are in good condition, as provided for in the regulations. Liquids must be placed in holding tanks.
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;tip&quot;&gt;
+Chemicals including paint and thinners must be stored in labelled containers that are in good condition, as provided for in the regulations. Liquids must be placed in holding tanks.
+&lt;/div&gt;
+
+&lt;h3 id=&quot;page&quot;&gt;404 Page&lt;/h3&gt;
+
+&lt;p&gt;The 404 page has a fuzzy search implemented that lists urls that are similar to the entered url. Try it out: &lt;a href=&quot;/features&quot;&gt;Unknown URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;json-api&quot;&gt;JSON API&lt;/h3&gt;
+
+&lt;p&gt;The theme offers a JSON API for the blog posts. You can query all blog posts via: &lt;a href=&quot;/api/posts.json&quot;&gt;&lt;code&gt;/api/posts.json&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;pdf-and-powerpoint-integration&quot;&gt;PDF and PowerPoint integration&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;iframe src=&#39;https://view.officeapps.live.com/op/embed.aspx?src=http://img.labnol.org/di/PowerPoint.ppt&#39; frameborder=&#39;0&#39;&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;iframe src=&quot;https://view.officeapps.live.com/op/embed.aspx?src=http://img.labnol.org/di/PowerPoint.ppt&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;more&quot;&gt;More&lt;/h2&gt;
+
+&lt;p&gt;More formating features can be found in the &lt;a href=&quot;http://kramdown.gettalong.org/syntax.html&quot;&gt;Kramdown syntax&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jun 2016 15:40:00 +0530</pubDate>
+        <link>/blog/features/Features</link>
+        <guid isPermaLink="true">/blog/features/Features</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Theme</category>
+        
+        <category>GitHub</category>
+        
+        <category>Installation</category>
+        
+        
+        <category>Features</category>
+        
+      </item>
+    
+      <item>
+        <title>YAML Custom Features</title>
+        <description>&lt;p&gt;In this short post I changed the title that is displayed on the front page from &lt;code&gt;YAML Custom Features&lt;/code&gt; to &lt;code&gt;YAML Features&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---
+title:             &quot;YAML Custom Features&quot;
+menutitle:         &quot;YAML Features&quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I also added a redirect to this post. If you browse to &lt;a href=&quot;/YAML-Features-Redirect&quot;&gt;YAML-Feature-Redirect&lt;/a&gt; you should be redirected to this page. This only works if you have not removed the plugins.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---
+redirect_from:     &quot;/YAML-Features-Redirect&quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you like to redirect from multible sources you can specify it as an array.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---
+redirect_from:  
+  - &quot;/YAML-Features-Redirect/&quot;
+  - &quot;/blog/old-category/YAML-Features/&quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I also changed the cover image for this block via YAML.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---
+cover:         /assets/mountain-alternative-cover.jpg
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To generate keywords for the search engines I use the tags that you specify in the post. If you are writing a page you need to specify keywords instead of tags.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---        
+tags:          Jekyll YAML Features Explained  #Only used in posts!
+keywords:      Jekyll YAML Features Explained  #Only used in pages!
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Post will be sorted by category on the front page. This is how you define the category in YAML.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---        
+category:     Readme
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;On a page I have additional options. For instance I can hide the page from the menu by setting the &lt;code&gt;visible&lt;/code&gt; tag to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---        
+visible:       false     
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If I like to have the page in the menu I can add &lt;code&gt;weight&lt;/code&gt; to the page in order to specify a position in the menu.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---        
+weight:       5  
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The default language of your blog is defined in the &lt;code&gt;_config.yml&lt;/code&gt; file but if you like to write a post/page in another language you can use the &lt;code&gt;language&lt;/code&gt; attribute. This will specify that you are using another language on this page for search engines. Please use on of the &lt;a href=&quot;http://www.w3schools.com/tags/ref_language_codes.asp&quot;&gt;language codes&lt;/a&gt; as value.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---        
+language:       en  
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can enable &lt;a href=&quot;https://disqus.com/&quot;&gt;disqus&lt;/a&gt; comments in posts by adding &lt;code&gt;comments&lt;/code&gt; to the page. To configure the disqus forum you need to modify the &lt;code&gt;disqus_shortname&lt;/code&gt; in the &lt;code&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;---        
+comments:       true  
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Additional features, that can be specified, can be found in the &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;YAML Front Matter documentation&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 03:10:00 +0530</pubDate>
+        <link>/blog/features/YAML-Features</link>
+        <guid isPermaLink="true">/blog/features/YAML-Features</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>YAML</category>
+        
+        <category>Features</category>
+        
+        <category>Explained</category>
+        
+        
+        <category>Features</category>
+        
+      </item>
+    
+      <item>
+        <title>This post demonstrates post content styles</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-great-heading-h2&quot;&gt;Some great heading (h2)&lt;/h2&gt;
+
+&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.&lt;/p&gt;
+
+&lt;p&gt;Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+
+&lt;h2 id=&quot;another-great-heading-h2&quot;&gt;Another great heading (h2)&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
+
+&lt;h3 id=&quot;some-great-subheading-h3&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
+
+&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.&lt;/p&gt;
+
+&lt;p&gt;Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;
+
+&lt;h3 id=&quot;some-great-subheading-h3-1&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
+
+&lt;p&gt;Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This quote will change your life. It will reveal the secrets of the universe, and all the wonders of humanity. Don’t misuse it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.&lt;/p&gt;
+
+&lt;h3 id=&quot;some-great-subheading-h3-2&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
+
+&lt;p&gt;Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p&amp;gt;Hello, World!&amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+
+&lt;h4 id=&quot;you-might-want-a-sub-subheading-h4&quot;&gt;You might want a sub-subheading (h4)&lt;/h4&gt;
+
+&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+
+&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+
+&lt;h4 id=&quot;but-its-probably-overkill-h4&quot;&gt;But it’s probably overkill (h4)&lt;/h4&gt;
+
+&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+
+&lt;h2 id=&quot;specifying-some-footnotes-h2&quot;&gt;Specifying some footnotes (h2)&lt;/h2&gt;
+
+&lt;p&gt;This is text with a footnote. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;oh-hai-an-unordered-list&quot;&gt;Oh hai, an unordered list!!&lt;/h3&gt;
+
+&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First item, yo&lt;/li&gt;
+  &lt;li&gt;Second item, dawg&lt;/li&gt;
+  &lt;li&gt;Third item, what what?!&lt;/li&gt;
+  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;oh-hai-an-ordered-list&quot;&gt;Oh hai, an ordered list!!&lt;/h3&gt;
+
+&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First item, yo&lt;/li&gt;
+  &lt;li&gt;Second item, dawg&lt;/li&gt;
+  &lt;li&gt;Third item, what what?!&lt;/li&gt;
+  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;headings-are-cool-h2&quot;&gt;Headings are cool! (h2)&lt;/h2&gt;
+
+&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+
+&lt;p&gt;Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+
+&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Some footnote &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Another footnote &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Last footnote &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 05 Mar 2016 00:00:00 +0530</pubDate>
+        <link>/blog/features/Content</link>
+        <guid isPermaLink="true">/blog/features/Content</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Content</category>
+        
+        <category>Demo</category>
+        
+        
+        <category>Features</category>
+        
+      </item>
+    
+  </channel>
+</rss>

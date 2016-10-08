@@ -1,0 +1,24 @@
+title:            Disruptive Labs
+subtitle:         Technical tales from the dark corners
+description:      My technical ramblings on security, networking, protocols and everything under sun!
+keywords:         security pentesting python malware
+language:         "en"
+
+baseurl:          "" # the subpath of your site, e.g. /blog
+url:              "http://yamakira.github.io" # the base hostname & protocol for your site. Have a look at robots.txt as well!
+permalink:        /blog/:categories/:title
+cover:            /assets/header_bg.jpg
+disqus_shortname: "Disruptive Labs"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+include: ['_pages']
+exclude: [vendor]
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from

@@ -1,0 +1,31 @@
+default:                                                      # Fallback if nothing is specified
+  initial:      bharath                                       # used for author lookup in posts and for first two characters in the about page back button
+  name:         "Bharath"                                     # used to display author name
+  cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
+  picture:      /assets/bharath.jpg                           # OPTIONAL: author picture
+  bio:          Tinkering stuff forever                       # OPTIONAL: text below author name in posts
+  location:     Germany                                       # OPTIONAL: used to display location of the author
+  website:      "http://disruptivelabs.in/about"              # OPTIONAL: link to the author of a post
+  email:                                                      # OPTIONAL: used in the about page
+  twitter:      yamakira_                                     # OPTIONAL: used in the about page
+  linkedin:                                                   # OPTIONAL: used in the about page
+  xing:                                                       # OPTIONAL: used in the about page
+  github:       yamakira                                      # OPTIONAL: used in the about page
+  stackoverflow:                                              # OPTIONAL: used in the about page
+  facebook:                                                   # OPTIONAL: used in the about page
+  gplus:                                                      # OPTIONAL: used in the about page
+  soundcloud:                                                 # OPTIONAL: used in the about page
+  youtube:                                                    # OPTIONAL: used in the about page
+  pinterest:                                                  # OPTIONAL: used in the about page
+  dribble:                                                    # OPTIONAL: used in the about page
+  behance:                                                    # OPTIONAL: used in the about page
+bharath:
+  initial:      "DL"
+  name:         "Bharath"        
+  cover:        /assets/mountain-alternative-cover.jpg  
+  picture:      /assets/bharath.jpg  
+  bio:          Tinkering stuff forever 
+  location:     India 
+  website:      "http://disruptivelabs.in/about" 
+  twitter:      yamakira_
+  github:       yamakira
