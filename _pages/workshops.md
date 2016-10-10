@@ -17,9 +17,9 @@ We highly encourage people to use this material to learn, modify and also to tea
 For more info on the philosophy of open course material: [http://www.opensecuritytraining.info/Why.html](http://www.opensecuritytraining.info/Why.html)
 
 <div id="content" class="content">
-    <center><h3>Trainings</h3></center>
+    <center><h3>Training</h3></center>
     <ul class="category recent-posts">       
-        {% for post in site.categories.trainings %}
+        {% for post in site.categories.Training %}
         {% unless post.draft %}
 
         {% if post.menutitle %}

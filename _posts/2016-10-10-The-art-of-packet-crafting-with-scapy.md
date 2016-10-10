@@ -4,7 +4,7 @@ title:             "The art of packet crafting with Scapy"
 menutitle:         "The art of packet crafting with Scapy"
 date:              2016-10-10 00:40:00 +0300
 tags:              workshop training scapy python
-category:          trainings
+category:          Training
 author:            bharath
 cover:             /assets/header_bg.jpg
 published:         true
