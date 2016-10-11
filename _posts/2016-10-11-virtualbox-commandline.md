@@ -20,6 +20,9 @@ your host operating system. VBoxManage supports all the features that the GUI gi
 
 Fortunately, VBoxManage has extensive documentation which makes life easy. It covers every available option that there is in VBoxManage. If you ever find yourself using VBoxManage, the docs are your go-to reference.
 
+[VBoxManage documentation](https://www.virtualbox.org/manual/ch08.html)
+
+
 Rather than going over what\'s already covered in documentation extensively and making this article an yet-another tutorial on VBoxManage, I\'ll go over a problem that I solved using virtualbox command-line recently.
 
 ###### The problem at hand
