@@ -1,9 +1,9 @@
 ---
 layout:            post
-title:             "The art of packet crafting with Scapy"
-menutitle:         "The art of packet crafting with Scapy"
-date:              2016-10-10 00:40:00 +0300
-tags:              workshop training scapy python
+title:             "Network programming in Python"
+menutitle:         "Network programming in Python"
+date:              2016-09-25 00:40:00 +0300
+tags:              workshop training network python
 category:          Training
 author:            bharath
 cover:             /assets/header_bg.jpg
@@ -21,10 +21,10 @@ comments:          true
 
 **Class Pre-requisites**: [Python programming: Foundations](http://disruptivelabs.in/python-foundations/) or equivalent.
 
-**Lab setup**: will be updated after first delivery
+**Lab setup**: [Network playground by Brandon Rhodes](https://github.com/brandon-rhodes/fopnp/tree/m/playground)
 
 **Recommended Class Duration**: 1-2 days
 
-**Class Notes**: [disruptivelabs.in/art-of-packet-crafting-with-scapy](http://disruptivelabs.in/art-of-packet-crafting-with-scapy)
+**Class Notes**: [disruptivelabs.in/python-network-programming](https://disruptivelabs.in/python-network-programming)
 
 **Class videos**: To-be-developed.

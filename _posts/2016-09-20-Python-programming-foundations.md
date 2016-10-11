@@ -1,9 +1,9 @@
 ---
 layout:            post
-title:             "The art of packet crafting with Scapy"
-menutitle:         "The art of packet crafting with Scapy"
-date:              2016-10-10 00:40:00 +0300
-tags:              workshop training scapy python
+title:             "Python programming: Foundations"
+menutitle:         "Python programming: Foundations"
+date:              2016-09-20 00:40:00 +0300
+tags:              workshop training python programming
 category:          Training
 author:            bharath
 cover:             /assets/header_bg.jpg
@@ -19,12 +19,12 @@ comments:          true
 [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0) for code
 
 
-**Class Pre-requisites**: [Python programming: Foundations](http://disruptivelabs.in/python-foundations/) or equivalent.
+**Class Pre-requisites**: Familiarity with some programming language(Not necessarily Python).
 
-**Lab setup**: will be updated after first delivery
+**Lab setup**: Any machine with Python 2.7.x installed is enough to practice.
 
 **Recommended Class Duration**: 1-2 days
 
-**Class Notes**: [disruptivelabs.in/art-of-packet-crafting-with-scapy](http://disruptivelabs.in/art-of-packet-crafting-with-scapy)
+**Class Notes**: [disruptivelabs.in/python-foundations/](http://disruptivelabs.in/python-foundations/)
 
 **Class videos**: To-be-developed.
