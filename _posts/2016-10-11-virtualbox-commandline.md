@@ -1,9 +1,9 @@
 ---
 layout:            post
-title:             "Virtualbox's little secret: command-line"
-menutitle:         "Virtualbox's little secret: command-line"
+title:             "VirtualBox's little secret: command-line"
+menutitle:         "VirtualBox's little secret: command-line"
 date:              2016-10-11 00:40:00 +0300
-tags:              virtualization virtualbox
+tags:              virtualization VirtualBox
 category:          Virtualization
 author:            bharath
 cover:             /assets/header_bg.jpg
@@ -13,17 +13,17 @@ language:          EN
 comments:          true
 ---
 
-We often run into features on some software that are little known but are very handy. Virtualbox has one such feature, the command-line.
+We often run into features on some software that are little known but are very handy. VirtualBox has one such feature, the command-line.
 
 **VBoxManage** is the command-line interface to VirtualBox. With it, you can completely control VirtualBox from the command line of
 your host operating system. VBoxManage supports all the features that the GUI gives you access to, but it supports a lot more than that. It exposes really all the features of the virtualization engine, even those that cannot (yet) be accessed from the GUI.
 
 Fortunately, VBoxManage has extensive documentation which makes life easy. It covers every available option that there is in VBoxManage. If you ever find yourself using VBoxManage, the docs are your go-to reference.
 
-[VBoxManage documentation](https://www.virtualbox.org/manual/ch08.html)
+[VBoxManage documentation](https://www.VirtualBox.org/manual/ch08.html)
 
 
-Rather than going over what\'s already covered in documentation extensively and making this article an yet-another tutorial on VBoxManage, I\'ll go over a problem that I solved using virtualbox command-line recently.
+Rather than going over what\'s already covered in documentation extensively and making this article an yet-another tutorial on VBoxManage, I\'ll go over a problem that I solved using VirtualBox command-line recently.
 
 ###### The problem at hand
 
@@ -34,25 +34,25 @@ We planned to conduct a workshop on network reconnisance. We faced a bunch of ch
 - We wanted to run couple of full blown VMs as part of labs to do remote OS detection using differences in kernel implementations so using containers is not an option.
 - We wanted to run "React OS" to avoid the messy Windows licensing terms. Running React OS means, using Vagrant, containers is not an easy option.
 - Audience carry laptops with various host operating systems. No native SSH client on Windows is available, so Vagrant is again not an option.
-- We wanted the lab setup to be as automated as possible rather than making audience click through every step, simple Virtualbox GUI won\'t cut it.
+- We wanted the lab setup to be as automated as possible rather than making audience click through every step, simple VirtualBox GUI won\'t cut it.
 
 ###### VBoxManage our saviour
 
-At this point we were not left with many options and had to turn to good old Virtualbox, that\'s when I gave a serious thought to virtualbox command-line.
+At this point we were not left with many options and had to turn to good old VirtualBox, that\'s when I gave a serious thought to VirtualBox command-line.
 
-- Virtualbox can run almost every *nix machines and also React OS.
+- VirtualBox can run almost every *nix machines and also React OS.
 - VBoxManage supports full automation of lab setup(Infact Vagrant uses VBoxManage in the backend)
-- VBoxManage is available on all platforms that has Virtualbox installation.
+- VBoxManage is available on all platforms that has VirtualBox installation.
 
 ###### Steps towards solution
 
 **Creating the lab setup** <br>
-We created a bunch of virtual machines. Few of them act as victims and one VM acts as attacker in the labs. We exported the VMs in OVA format from our Linux machine using Virtualbox GUI. At this point we had a directory with all lab VMs in OVA format.
+We created a bunch of virtual machines. Few of them act as victims and one VM acts as attacker in the labs. We exported the VMs in OVA format from our Linux machine using VirtualBox GUI. At this point we had a directory with all lab VMs in OVA format.
 
 **Importing lab setup** <br>
 
 - A bash script for *nix and batch file for Windows were created to automate the lab setup importing using VBoxManage.
-- The problem with windows is that VBoxManage is available as a command only from Virtualbox installation directory, so we had to tweak the batch file.
+- The problem with windows is that VBoxManage is available as a command only from VirtualBox installation directory, so we had to tweak the batch file.
 
 - The following script imports all the required OVA files and lists all the virtual machines available on the host to check if the OVAs are imported sucessfully.
 
@@ -78,8 +78,8 @@ cmd \k
 **Starting the labs** <br>
 
 - A bash script for *nix and batch file for Windows were created to run the labs.
-- We wanted to run the victims in the background and only display the attacker. Virtualbox headless mode runs a VM in the background.
-- We exported OVAs from a Linux machine and the virtualbox host-only network adapter name on windows is not consistent with Linux so we had to use `vboxmanage modifyvm` to modify the adapter name.
+- We wanted to run the victims in the background and only display the attacker. VirtualBox headless mode runs a VM in the background.
+- We exported OVAs from a Linux machine and the VirtualBox host-only network adapter name on windows is not consistent with Linux so we had to use `vboxmanage modifyvm` to modify the adapter name.
 - The following script run all the victims in background and displays attacker VM. This script lists all running VMs to check if everything is running.
 
 ```bash
@@ -136,4 +136,4 @@ cmd \k
 
 ###### Conclusion
 
-VBoxManage is a pretty neat and powerful interface provided by Virtualbox. It comes handy when trying to automate your virtual environments especially when trying to distribute your environments. This article looks into one such solution to a problem, this isn\'t even tip of the iceberg, find a problem/challenge, read through VBoxManage docs and have fun!
+VBoxManage is a pretty neat and powerful interface provided by VirtualBox. It comes handy when trying to automate your virtual environments especially when trying to distribute your environments. This article looks into one such solution to a problem, this isn\'t even tip of the iceberg, find a problem/challenge, read through VBoxManage docs and have fun!
