@@ -118,9 +118,9 @@ iitk.ac.in.		43200	IN	SOA	ns1.iitk.ac.in. root.ns1.iitk.ac.in. 201609222 10800 3
 
 ###### Zone transfer attack using Python
 
-- Python does\'nt have an inbuit DNS module. We\'ll use `dnsmap`, a third party module/toolkit for DNS operations in Python.
-- Let\'s find out the nameservers for the domain `iitk.ac.in` using dnsmap. I\'ll go ahead and retrive all the common DNS records for the domain.
-  - `dns.resolver` is the client part of dnsmap.
+- Python does\'nt have an inbuit DNS module. We\'ll use `dnspython`, a third party module/toolkit for DNS operations in Python.
+- Let\'s find out the nameservers for the domain `iitk.ac.in` using dnspython. I\'ll go ahead and retrive all the common DNS records for the domain.
+  - `dns.resolver` is the client part of dnspython.
   - `dns.resolver.query` is how you make a query. provide domain name, query type as arguments.
 
 ```python
@@ -151,7 +151,7 @@ iitk.ac.in. 43200 IN NS ns1.iitk.ac.in.
 iitk.ac.in. 43181 IN SOA ns1.iitk.ac.in. root.ns1.iitk.ac.in. 201609222 10800 3600 1209600 43200
 ```
 
-- Let's initiate a zone transfer with the nameserver `ns1.iitk.ac.in.`, for domain `iitk.ac.in` using dnsmap.
+- Let's initiate a zone transfer with the nameserver `ns1.iitk.ac.in.`, for domain `iitk.ac.in` using dnspython.
   - `dns.query`supports XFR query i.e. zone transfer.
   - `dns.zone` helps use manage the zone details
   -  we are trying to extract only the sub-domain details from the zone details.
