@@ -9,13 +9,16 @@ weight:    90
 excerpt:   This page contains the profiles of authors.
 ---
 
-Everyone these days have a home page or blog, this is my attempt at having a home page where I can aggregate notes on things I learn, workshops I run, CTF/bug writeups, code I write etc.
+This is just my little corner of The Internet where I aggregate all the things I learn, stories I write, bugs I find and code I write.
+
 
 ## Profile
 
-I\'m a freelance pentester based out of Bangalore, India. I share love for open source in general, Linux, pentesting and programming in Python. I enjoy sharing things I know, I have run workshops at various locations ranging from local hackerspaces to remote schools in Ladakh.
+I\'m a freelance computer security guy based out of Bangalore, India. I share love for open source in general, Linux, offensive security and programming in Python. I'm passionate about learning , building and creating new things. I enjoy sharing things I know, I\'ve run workshops at various places in the past, ranging from local hackerspaces to remote schools in Ladakh.
 
-Outside technical realm, I enjoy books, rain, camping, learning (spoken)languages, chocolates and old monk!
+Outside technical realm, I enjoy books, rain, hiking, camping, learning languages, chocolates and old monk! I\'ve hiked & biked extensively across India.
+
+In general, I hope to strive towards a world where we value skills over papers, where we're passionate about building and creating things over making career and money.
 
 
 ---
