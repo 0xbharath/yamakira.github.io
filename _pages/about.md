@@ -20,7 +20,6 @@ Outside technical realm, I enjoy books, rain, hiking, camping, learning language
 
 In general, I hope to strive towards a world where we value skills over papers, where we're passionate about building and creating things over making career and money.
 
-
 ---
 
 
