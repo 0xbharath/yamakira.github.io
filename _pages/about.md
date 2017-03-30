@@ -14,7 +14,7 @@ This is just my little corner of The Internet where I aggregate all the things I
 
 ## Profile
 
-I\'m a freelance computer security guy based out of Bangalore, India. I share love for open source in general, Linux, offensive security and programming in Python. I'm passionate about learning , building and creating new things. I enjoy sharing things I know, I\'ve run workshops at various places in the past, ranging from local hackerspaces to remote schools in Ladakh.
+I\'m a Security engineer based out of Bangalore, India. I do security research for Appsecco. I share love for open source in general, Linux, offensive security and programming in Python. I'm passionate about learning , building and creating new things. I enjoy sharing things I know, I\'ve run workshops at various places in the past, ranging from local hackerspaces to remote schools in Ladakh.
 
 Outside technical realm, I enjoy books, rain, hiking, camping, learning languages, chocolates and old monk! I\'ve hiked & biked extensively across India.
 
